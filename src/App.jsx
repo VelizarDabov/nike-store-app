@@ -6,10 +6,12 @@ import Service from "./Sections/Service";
 import SpecialOffer from "./Sections/SpecialOffer";
 import Subscribe from "./Sections/Subscribe";
 import SuperQuality from "./Sections/SuperQuality";
+import Nav from './components/Nav'
 
 const App = () => (
   <main className="relative">
-    <section className="xl:padding-1 wide padding-r padding-b"><Hero/> </section>
+    <Nav/>
+    <section className="xl:padding-1 wide:padding-r padding-b"><Hero/> </section>
     <section className="padding"><PopularProducts/></section>
     <section className="padding"><SuperQuality/></section>
     <section className="padding py-10"><Service/></section>
