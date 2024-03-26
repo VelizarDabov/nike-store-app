@@ -6,7 +6,7 @@ import Service from "./Sections/Service";
 import SpecialOffer from "./Sections/SpecialOffer";
 import Subscribe from "./Sections/Subscribe";
 import SuperQuality from "./Sections/SuperQuality";
-import Nav from './components/Nav'
+import Nav from './components/Nav';
 
 const App = () => (
   <main className="relative">
